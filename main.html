@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Main</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+       <header class="header">
+  <div class="header__container">
+    <a href="" class="header__logo">
+      <img class="header__logo-icon" src="./img/logo-header.svg" alt="">
+      <span class="header__logo-text">piNOT</span>
+    </a>
+    <div class="header__menu menu">
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#" class="menu__link active">Main</a></li>
+          <li class="menu__item"><a href="#" class="menu__link ">Referal and Users</a></li>
+          <li class="menu__item"><a href="#" class="menu__link ">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__wallet">
+      <img class="header__wallet-icon" src="./img/svg/wallet.svg" alt="">
+      <span class="header__wallet-text"> sAdj1l2k34bhF3jkb21f</span>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <div class="main__container">
+        <div class="main__info">
+          <div class="main__item balance board board--circle-1">
+            <div class="balance__content block-info">
+              <label class="balance__label block-info__label">Total balance</label>
+              <div class="balance__amount block-info__amount">
+                100 000 000
+                <svg class="balance__value-icon block-info__icon">
+                  <use xlink:href="img/sprite.svg#not-icon"></use>
+                </svg>
+              </div>
+              <div class="balance__increase">+200% per week</div>
+              <div class="balance__actions">
+                <button class="balance__button button">deposit</button>
+                <button class="balance__button button button--blue">referrals</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="main__item reward-info">
+            <div class="reward-info__text">Need: <span class="reward-info__need">+56 users</span> for start next round
+            </div>
+            <label for="" class="reward-info__label">You`ll get:</label>
+            <div class="reward-info__amaunt"><span class="reward-info__full-circle">4032 NOT </span> in full circle
+            </div>
+            <div class="reward-info__amaunt"><span class="reward-info__in-round">1008 NOT </span> in round</div>
+          </div>
+          <div class="main__item profit">
+            <div class="profit__user">DS</div>
+            <div class="profit__amount">
+              <div class="profit__amount-row block-info">
+                <label class=" block-info__label">Referrals profit:</label>
+                <div class="block-info__amount">115 987
+                  <img class="block-info__icon" src="./img/svg/not-icon.svg" alt="">
+                </div>
+              </div>
+              <div class="profit__amount-row block-info">
+                <label class=" block-info__label">Profit per hour:</label>
+                <div class="block-info__amount">12 000
+                  <img class="block-info__icon" src="./img/svg/not-icon.svg" alt="">
+                </div>
+              </div>
+              <div class="profit__amount-row block-info">
+                <label class=" block-info__label">Number of referrals:</label>
+                <div class="block-info__amount">16
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__piramids piramids board ">
+          <div class="piramids__header">
+            <div class="piramids__header-settings settings-account">
+              <h2 class="settings-account__header">Settings</h2>
+              <div class="settings-account__items">
+                <div class="settings-account__item">
+                  <button id="switchAnim" class="settings-account__item-btn switch-btn"></button>
+                  <label for="switchAnim" class="settings-account__item-text">Pyramids animation</label>
+                </div>
+                <div class="settings-account__item">
+                  <button id="switchVibration" class="settings-account__item-btn switch-btn"></button>
+                  <label for="switchVibration" class="settings-account__item-text">Vibration</label>
+                </div>
+              </div>
+            </div>
+            <div class="piramids__header-info">
+              <div class="piramids__header-title">
+                <div class="piramids__header-text">Pyramids</div>
+                <div class="piramids__header-count">03/<span>21</span></div>
+              </div>
+              <div class="piramids__header-users"><span>2031</span> Users in game</div>
+            </div>
+
+          </div>
+          <div class="piramids__board">
+            <div class="grid"></div>
+            <div class="piramids__items">
+              <button class="piramids__item animate">
+                <div class="piramids__item-1">
+                  <img class="piramids__item-image" src="./img/pyramid-3.svg" alt="">
+                  <div class="piramids__item-descr">
+                    <svg class="piramids__item-icon">
+                      <use xlink:href="img/sprite.svg#not-icon"></use>
+                    </svg>
+                    <div class="piramids__item-price">0.5k</div>
+                  </div>
+                </div>
+
+              </button>
+              <button class="piramids__item animate">
+                <div class="piramids__item-2">
+                  <img class="piramids__item-image" src="./img/pyramid-3.svg" alt="">
+                  <div class="piramids__item-descr">
+                    <svg class="piramids__item-icon">
+                      <use xlink:href="img/sprite.svg#not-icon"></use>
+                    </svg>
+                    <div class="piramids__item-price">2k</div>
+                  </div>
+                </div>
+
+              </button>
+              <button class="piramids__item animate-back">
+                <div class="piramids__item-3">
+                  <img class="piramids__item-image" src="./img/pyramid.svg" alt="">
+                  <div class="piramids__item-descr">
+                    <svg class="piramids__item-icon">
+                      <use xlink:href="img/sprite.svg#not-icon"></use>
+                    </svg>
+                    <div class="piramids__item-price">1k</div>
+                  </div>
+                </div>
+
+              </button>
+              <button class="piramids__item animate-back">
+                <div class="piramids__item-4">
+                  <img class="piramids__item-image" src="./img/pyramid-4.svg" alt="">
+                  <div class="piramids__item-descr">
+                    <svg class="piramids__item-icon">
+                      <use xlink:href="img/sprite.svg#not-icon"></use>
+                    </svg>
+                    <div class="piramids__item-price">2k</div>
+                  </div>
+                </div>
+
+              </button>
+            </div>
+
+          </div>
+          <div class="piramids__lock piramids-lock">
+            <button class="piramids-lock__button button button--blue">choose all (21)</button>
+            <div class="piramids-lock__items" draggable="true">
+              <div class="piramids-lock__item active">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item active">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+              <div class="piramids-lock__item">
+                <div class="piramids-lock__item-image "></div>
+                <img class="piramids-lock__item-icon" src="./img/svg/lock.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+</body>
+
+</html>
